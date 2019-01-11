@@ -79,8 +79,6 @@ cursor: pointer;
 }
 
 
-
-
 ol
 {
 
@@ -91,7 +89,6 @@ ol
     padding: 0px;
 }
 
-
 a
 {
 color: black;
@@ -100,7 +97,6 @@ text-decoration: none;
 text-transform: uppercase;
 }
 
-
 a:hover
 {
     
@@ -108,15 +104,32 @@ a:hover
 }
 
 
+.figure
+{
+margin: 0;
+padding: 0;
+width: 100%;
+height: auto;
+}
+
+.price
+{
+padding: 5px 10px 15px 10px;
+display: inline-block;
+}
+
 
 figcaption
 {
-
 text-decoration: bold;
 font-size: 20px;
 text-align: center;
 }       
 
+.unit{
+padding: 5px 10px 15px 10px;
+display: inline-block;
+}
 
 
 .table
@@ -124,9 +137,6 @@ text-align: center;
 width: 50%;
 
 }
-
-
-
 
 footer
 {
